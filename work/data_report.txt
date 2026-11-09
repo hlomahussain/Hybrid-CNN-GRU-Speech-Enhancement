@@ -1,0 +1,38 @@
+Clean speech : 2691 files, split by speaker
+  train:  2151 files,   48 speakers, 5.97 h
+  val  :   270 files,    6 speakers, 0.75 h
+  test :   270 files,    6 speakers, 0.75 h
+  native sample rates (first 200 files): {48000: 200}
+Noise        : 11 types   (train/val/test = (0.7, 0.1, 0.2) of every file, by time)
+  babble_4talkers          5 files,   10.0 min   seen
+  babble_8talkers          5 files,   10.0 min   seen
+  copy_machine             1 files,   10.0 min   UNSEEN (test only)
+  door                     1 files,   10.0 min   seen
+  fan                      1 files,   10.0 min   seen
+  munching                 1 files,   10.0 min   seen
+  pink_noise               5 files,   10.0 min   UNSEEN (test only)
+  speech_shaped_noise      5 files,   10.0 min   seen
+  squeaky_chair            1 files,   10.0 min   seen
+  typing                   1 files,   10.0 min   seen
+  white_noise              5 files,   10.0 min   seen
+  native sample rates: {48000: 31}
+Noise stationarity (NSI, dB; stationary < 2.5 <= quasi-stationary < 5.0 <= non-stationary):
+  pink_noise             NSI   0.72 dB   stationary        UNSEEN
+  white_noise            NSI   0.72 dB   stationary        seen
+  speech_shaped_noise    NSI   0.73 dB   stationary        seen
+  fan                    NSI   3.55 dB   quasi-stationary  seen
+  babble_8talkers        NSI   5.61 dB   non-stationary    seen
+  babble_4talkers        NSI   7.49 dB   non-stationary    seen
+  squeaky_chair          NSI  10.59 dB   non-stationary    seen
+  munching               NSI  11.17 dB   non-stationary    seen
+  door                   NSI  13.82 dB   non-stationary    seen
+  copy_machine           NSI  14.19 dB   non-stationary    UNSEEN
+  typing                 NSI  15.53 dB   non-stationary    seen
+  categories: {'non-stationary': 7, 'stationary': 3, 'quasi-stationary': 1}
+
+Added after training as UNSEEN test-only noise types (step1b):
+  dkitchen               NSI   3.41 dB   quasi-stationary  UNSEEN
+  ooffice                NSI   3.90 dB   quasi-stationary  UNSEEN
+  npark                  NSI   4.55 dB   quasi-stationary  UNSEEN
+  dwashing               NSI   5.65 dB   non-stationary    UNSEEN
+  dliving                NSI   5.97 dB   non-stationary    UNSEEN

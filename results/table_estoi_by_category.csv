@@ -1,0 +1,9 @@
+method,stationary,quasi-stationary,non-stationary
+Noisy (unprocessed),0.732,0.872,0.811
+Spectral Subtraction,0.734,0.854,0.787
+Wiener filter,0.722,0.855,0.792
+RNNoise (official library),0.842,0.907,0.831
+GRU-only,0.78,0.877,0.823
+CNN-only,0.774,0.868,0.819
+Hybrid CNN-GRU (proposed),0.79,0.878,0.824
+Oracle 22-band gains,0.931,0.96,0.952

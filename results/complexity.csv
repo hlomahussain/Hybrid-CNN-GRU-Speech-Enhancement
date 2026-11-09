@@ -1,0 +1,4 @@
+model,trainable_params,total_params,size_MB,float32_weights_kB,real_time_factor,ms_per_10ms_frame
+GRU-only,65926,65926,0.84,257.5,0.0134,0.134
+CNN-only,77526,78166,1.0,305.3,0.0051,0.051
+Hybrid CNN-GRU (proposed),80038,80230,1.04,313.4,0.0129,0.129

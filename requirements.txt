@@ -1,0 +1,12 @@
+tensorflow
+keras>=3.0
+librosa
+soundfile
+numpy
+scipy
+pandas
+tabulate
+matplotlib
+tqdm
+pystoi
+pyrnnoise    # optional: real RNNoise baseline. If it fails to install, remove this line; the evaluation skips RNNoise.

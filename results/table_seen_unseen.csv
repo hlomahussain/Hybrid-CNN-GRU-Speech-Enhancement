@@ -1,0 +1,9 @@
+method,estoi_seen,estoi_unseen,pesq_seen,pesq_unseen,si_sdr_seen,si_sdr_unseen,stoi_seen,stoi_unseen
+Noisy (unprocessed),0.776,0.857,1.53,2.068,10.004,10.0,0.894,0.94
+Spectral Subtraction,0.758,0.839,1.586,2.121,10.117,14.417,0.871,0.923
+Wiener filter,0.759,0.841,1.705,2.329,11.187,15.761,0.873,0.923
+RNNoise (official library),0.817,0.897,2.031,2.437,10.994,13.449,0.894,0.954
+GRU-only,0.802,0.863,1.861,2.383,12.628,12.476,0.901,0.94
+CNN-only,0.797,0.856,1.816,2.289,12.571,12.363,0.897,0.937
+Hybrid CNN-GRU (proposed),0.805,0.864,1.886,2.409,13.206,12.721,0.903,0.941
+Oracle 22-band gains,0.943,0.959,2.844,3.256,17.278,16.961,0.975,0.983

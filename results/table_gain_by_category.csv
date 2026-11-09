@@ -1,0 +1,8 @@
+method,pesq_gain_stationary,pesq_gain_quasi-stationary,pesq_gain_non-stationary,stoi_gain_stationary,stoi_gain_quasi-stationary,stoi_gain_non-stationary,si_sdr_gain_stationary,si_sdr_gain_quasi-stationary,si_sdr_gain_non-stationary
+Spectral Subtraction,0.375,0.192,-0.112,-0.023,-0.017,-0.021,1.99,4.622,0.832
+Wiener filter,0.484,0.404,0.037,-0.022,-0.018,-0.02,3.307,6.082,1.859
+RNNoise (official library),0.696,0.492,0.337,0.037,0.008,-0.005,2.489,3.607,1.24
+GRU-only,0.567,0.388,0.215,0.015,-0.002,0.003,4.898,2.462,1.823
+CNN-only,0.537,0.246,0.169,0.011,-0.006,-0.001,4.434,2.308,1.902
+Hybrid CNN-GRU (proposed),0.615,0.408,0.235,0.018,-0.001,0.004,4.918,2.666,2.494
+Oracle 22-band gains,1.451,1.244,1.201,0.08,0.033,0.074,6.964,6.818,7.337

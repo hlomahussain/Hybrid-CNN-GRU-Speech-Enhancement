@@ -1,0 +1,17 @@
+noise_type,nsi_db,category,seen,files,minutes
+pink_noise,0.72,stationary,False,5,10.0
+white_noise,0.72,stationary,True,5,10.0
+speech_shaped_noise,0.73,stationary,True,5,10.0
+dkitchen,3.41,quasi-stationary,False,1,5.0
+fan,3.55,quasi-stationary,True,1,10.0
+ooffice,3.9,quasi-stationary,False,1,5.0
+npark,4.55,quasi-stationary,False,1,5.0
+babble_8talkers,5.61,non-stationary,True,5,10.0
+dwashing,5.65,non-stationary,False,1,5.0
+dliving,5.97,non-stationary,False,1,5.0
+babble_4talkers,7.49,non-stationary,True,5,10.0
+squeaky_chair,10.59,non-stationary,True,1,10.0
+munching,11.17,non-stationary,True,1,10.0
+door,13.82,non-stationary,True,1,10.0
+copy_machine,14.19,non-stationary,False,1,10.0
+typing,15.53,non-stationary,True,1,10.0
